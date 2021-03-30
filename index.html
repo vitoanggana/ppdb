@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <form id='siswa'>
+        <input type="text" id="tono">
+        <input type="text" id="umur">
+        <button type='submit'>submit</button>
+        
+    </form>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBx-y_4pRn6uReC0p1INmZazXdoKSiw5IU",
+            authDomain: "ppdb-c3b1a.firebaseapp.com",
+            projectId: "ppdb-c3b1a",
+            storageBucket: "ppdb-c3b1a.appspot.com",
+            messagingSenderId: "907734273466",
+            appId: "1:907734273466:web:d4c40620491f0ebe846183"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="tono.js">
+
+    </script>
+</body>
+
+</html>
